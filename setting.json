@@ -1,0 +1,178 @@
+{
+  
+    "window.zoomLevel": 2,
+    "editor.accessibilityPageSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "'SourceCodePro+PowerLine+AwesomeRegular'",
+    "terminal.integrated.automationProfile.windows": {},
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontSize": 15,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "workbench.colorCustomizations": {
+      "tab.unfocusedActiveBackground": "#CAD5E2",
+      "tab.activeBackground": "#053058",
+      "tab.activeBorderTop": "#CAD5E2",
+      "tab.activeBorder": "#CAD5E2",
+      "tab.activeForeground": "#CAD5E2",
+      "tab.inactiveBackground": "#0D0D0D",
+      "tab.unfocusedInactiveBackground": "#ff00d0",
+      "tab.hoverBackground": "#000000",
+      "editor.background": "#000119",
+      "editorGroupHeader.tabsBackground": "#05395f",
+      "editor.foreground": "#CAD5E2",
+      "editorWhitespace.foreground": "#404040",
+      "activityBar.activeBackground": "#193549",
+      "activityBar.background": "#08335f",
+      "activityBar.activeBorder": "#CAD5E2",
+      "sideBar.background": "#0b233c8e",
+      "sideBar.foreground": "#bbccdc",
+      "statusBar.background": "#08335f",
+      "sideBarSectionHeader.background": "#042e57",
+      "sideBarSectionHeader.border": "#ffffff",
+      "statusBar.foreground": "#CAD5E2",
+      "panelTitle.activeBorder": "#F3F3F3",
+      "titleBar.activeBackground": "#08335f",
+      "titleBar.inactiveBackground": "#08335f",
+      "titleBar.activeForeground": "#F3F3F3",
+      "titleBar.border": "#CAD5E2",
+      "titleBar.inactiveForeground": "#44414176",
+      "badge.background": "#042057",
+      "terminal.background": "#000119",
+      "dropdown.background": "#031929",
+      "dropdown.listBackground": "#000119",
+      "input.background": "#000119",
+      "list.activeSelectionBackground": "#053058",
+      "notificationCenterHeader.background": "#03203C",
+      "welcomePage.footerSection": "#053058"
+    },
+  
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.function", 
+          "settings": {
+            "foreground": "#a53daf"
+          }
+        },
+        {
+          "scope": "variable", // Change the color of variables
+          "settings": {
+            "foreground": "#68b768"
+          }
+        },
+        {
+          "scope": "comment", // Change the color of comments
+          "settings": {
+            "foreground": "#658f92"
+          }
+        },
+        {
+          "scope": "keyword.control", // Change the color of control keywords (if, else, for, while, etc.)
+          "settings": {
+            "foreground": "#E6425E" // Red color
+          }
+        },
+        {
+          "scope": "string", // Change the color of strings
+          "settings": {
+            "foreground": "#dbe9f4" // Azure color
+          }
+        },
+        {
+          "scope": "constant.numeric", // Change the color of numeric constants (numbers)
+          "settings": {
+            "foreground": "#F4CE6A" // Yellow color
+          }
+        },
+        {
+          "scope": "entity.name.class", // Change the color of class names
+          "settings": {
+            "foreground": "#FFD700" // Golden color
+          }
+        },
+        {
+          "scope": "support.function", // Change the color of built-in function names
+          "settings": {
+            "foreground": "#00FF00" // Green color
+          }
+        },
+        {
+          "scope": "invalid", // Change the color of invalid or deprecated code
+          "settings": {
+            "foreground": "#FF0000", // Red color
+            "fontStyle": "italic underline" // Add italic and underline styles
+          }
+        },
+        {
+          "scope": "text.html entity.name.tag", // Change the color of HTML tags
+          "settings": {
+            "foreground": "#B9345A" // Red color
+          }
+        },
+        {
+          "scope": "text.html attribute.name", // Change the color of HTML attributes
+          "settings": {
+            "foreground": "#00FF00" // Green color
+          }
+        },
+        {
+          "scope": "text.html entity.other.attribute-name", // Change the color of other HTML attributes (e.g., data-*, aria-*)
+          "settings": {
+            "foreground": "#1B98F5" // Blue color
+          }
+        },
+        {
+          "scope": "text.html entity.name.tag.script", // Change the color of <script> tags
+          "settings": {
+            "foreground": "#FFA500" // Orange color
+          }
+        },
+        {
+          "scope": "text.html entity.name.tag.style", // Change the color of <style> tags
+          "settings": {
+            "foreground": "#800080" // Purple color
+          }
+        },
+        {
+          "scope": "text.html comment", // Change the color of HTML comments
+          "settings": {
+            "foreground": "#808080" // Gray color
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end", // Change the color of HTML tags <> (brackets)
+          "settings": {
+            "foreground": "#E07C24" // Orange color
+          }
+        },
+        {
+          "scope": "punctuation.section.array.begin, punctuation.section.array.end", // Change the color of square brackets [ ]
+          "settings": {
+            "foreground": "#00FF00" // Green color
+          }
+        },
+        {
+          "scope": "punctuation.section.object.begin, punctuation.section.object.end", // Change the color of curly brackets { }
+          "settings": {
+            "foreground": "#0000FF" // Blue color
+          }
+        }
+      ]
+    },
+  
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.linkedEditing": true
+  
+  }
