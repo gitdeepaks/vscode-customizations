@@ -1,6 +1,6 @@
 # Custom Visual Studio Code Theme
 
-This is a custom theme configuration for Visual Studio Code that has been tailored to provide a personalized and visually appealing coding experience. The theme incorporates various color customizations for different elements in the editor to enhance readability and ease of use.
+This is a customized theme configuration for Visual Studio Code that has been tailored to provide a personalized coding experience with enhanced readability and aesthetics.
 
 ## Theme Customizations
 
